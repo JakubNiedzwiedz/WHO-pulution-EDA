@@ -84,9 +84,7 @@ City coordinates were assigned using the `worldcities` dataset:
 - primary matching: **ISO3 + city name**
 - fallback strategies and manual corrections applied  
 
----
-
-## ⚠️ Limitations
+### ⚠️ Limitations
 
 - Not all cities could be matched to geographic coordinates  
 - Differences in naming conventions
@@ -98,18 +96,20 @@ City coordinates were assigned using the `worldcities` dataset:
 ## 🤖 Machine Learning Potential
 
 
+
 ---
 
 ## 📌 Key Insights
 
 
 
+---
 ## 👤 Authors
 
-Jakub Niedźwiedź
-Oliwier Kolbusz
-Roksana Jandura
-(PUM Project - Group 9)
+- Jakub Niedźwiedź
+- Oliwier Kolbusz
+- Roksana Jandura
+- (PUM Project - Group 9)
 
 ---
 
