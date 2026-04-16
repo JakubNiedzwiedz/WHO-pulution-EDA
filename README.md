@@ -125,6 +125,6 @@ However, the dataset has limitations:
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes.
