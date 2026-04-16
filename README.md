@@ -1,21 +1,21 @@
-# 🌍 Air Pollution EDA (WHO Dataset)
+# Air Pollution EDA (WHO Dataset)
 
 Exploratory Data Analysis (EDA) of global air pollution data from the World Health Organization (WHO), including statistical analysis and geospatial visualization at the level of regions, countries, and cities.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The goal of this project is to explore global air pollution patterns using WHO data and to analyze differences across multiple levels of aggregation:
-- 🌐 Regions (WHO regions)
-- 🏳️ Countries
-- 🏙️ Cities
+- Regions (WHO regions)
+- Countries
+- Cities
 
 The project includes both statistical analysis and interactive visualizations, with a particular focus on spatial distribution of pollutants.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 Source: World Health Organization (WHO)
 
@@ -32,9 +32,9 @@ Additionally, an external dataset (`worldcities`) was used to obtain geographica
 
 ---
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 
-- Python 🐍  
+- Python  
 - Pandas – data processing  
 - Plotly – interactive visualizations  
 - Matplotlib / Seaborn – statistical plots  
@@ -44,34 +44,34 @@ Additionally, an external dataset (`worldcities`) was used to obtain geographica
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The analysis includes:
 
-### 🔹 Data preparation
+### Data preparation
 - Data cleaning and type conversion  
 - Handling missing values  
 - Standardization of city names  
 
-### 🔹 Analysis by aggregation level
+### Analysis by aggregation level
 - **Region level** – average pollution levels, variability, exceedances  
 - **Country level** – rankings, trends, variability across cities  
 - **City level** – correlations, extreme values, time trends  
 
-### 🔹 Statistical insights
+### Statistical insights
 - Correlation analysis between pollutants  
 - Coefficient of variation across aggregation levels  
 - Distribution analysis (mean, median, IQR)
 
 ---
 
-## 🗺️ Geospatial Analysis
+## Geospatial Analysis
 
-### 🌐 Country-level map
+### Country-level map
 - Choropleth map showing median pollution levels per country  
 - Interactive filtering by pollutant and year  
 
-### 🏙️ City-level map
+### City-level map
 - Interactive point-based map using geographic coordinates  
 - Color represents pollution level  
 - Filters:
@@ -79,12 +79,12 @@ The analysis includes:
   - year
   - WHO region  
 
-### 📍 Geocoding approach
+### Geocoding approach
 City coordinates were assigned using the `worldcities` dataset:
 - primary matching: **ISO3 + city name**
 - fallback strategies and manual corrections applied  
 
-### ⚠️ Limitations
+### Limitations
 
 - Not all cities could be matched to geographic coordinates  
 - Differences in naming conventions
@@ -93,18 +93,30 @@ City coordinates were assigned using the `worldcities` dataset:
 
 ---
 
-## 🤖 Machine Learning Potential
+## Machine Learning Potential
+Air pollution data can be used in machine learning tasks such as:
 
+- Regression models (e.g., Linear Regression, Random Forest, XGBoost) for predicting future pollution levels
+- Classification models to categorize air quality (e.g., low / medium / high pollution)
+- Anomaly detection (e.g., Isolation Forest) to identify extreme pollution events or data errors
+
+However, the dataset has limitations:
+
+- high proportion of missing values
+- lack of key explanatory variables (e.g., weather, emissions, traffic)
 
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
+- Data aggregation level strongly affects interpretation – regional data smooths variability, while city-level data reveals local extremes
+- Most observations exceed WHO recommended limits, indicating a widespread global issue
+- Data completeness improves over time, reflecting the development of monitoring systems
 
 
 ---
-## 👤 Authors
+## Authors
 
 - Jakub Niedźwiedź
 - Oliwier Kolbusz
